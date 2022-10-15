@@ -1,0 +1,288 @@
+@media screen and (min-width:320px) and (max-width:576px) {
+    /* HEADER */
+    .header-cont {
+        display: flex;
+        gap: 20px;
+        position: sticky;
+    }
+   
+    .nav-list {
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+/*         background: var(--background-element); */
+        border: 2px solid #000000a8;
+        border-top:none;
+        align-items: flex-end;
+        padding: 45px 30px;
+        z-index: 2;
+        display: none;
+    }
+    .list-cont {
+        gap: 20px;
+    }
+    
+    .hamburguesa{
+        display: flex;
+    }
+    #toggle:checked + .nav-list{
+        display: flex;
+    }
+    .title {
+        font-size: large;
+    }
+    
+    .sign-in {
+        padding: 2px 5px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .join-now {
+        padding: 2px 5px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 5px;
+    
+    }
+    /* FIN HEADER */
+    
+
+    /* MAIN */
+    main {
+
+        gap: 80px;
+    }
+    
+    .hero-cont {
+        height: 39em;
+        background-position: 50% 20px;
+        background-size: auto 50%;
+    }
+    
+    .hero-cont-info {
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        width: 90%;
+        align-items: center;
+    }
+    
+    .hero-cont-info h3 {
+        font-size: large;
+    }
+    
+    .hero-cont-info p {
+        font-size: large;
+
+    }
+    
+    
+    /* CARDS START */
+    
+    .start-cont {
+        gap: 50px;
+    }
+    
+    .start-cont-tittle {
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .start-card-cont {
+        display: flex;
+        gap: 4px;
+        height: 40em;
+        flex-direction: column;
+    }
+    
+    .card-start {
+        width: 100%;
+        flex-direction: row;
+
+    }
+    
+    .card-start h3 {
+        font-size: x-large;
+    }
+    
+    .card-start h4 {
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .promo-cont {
+        height: 55em;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .promo-cont-one {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        border-bottom: 1px solid #000000a8;
+        gap: 5px;
+    }
+    
+    .promo-cont-one-card {
+        width: 100%;
+    }
+    
+    .promo-cont-one-card-info h6 {
+        font-size: large;
+    }
+    
+    .promo-cont-one-card-info p {
+        font-size: large;
+    }
+    
+    .promo-cont-two-card {
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+    }
+    
+
+    .title2{
+        font-size: large;
+    }
+    .info-product {
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    
+    .contact-cont{
+        height: 20em;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contact-cont h3{
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .contact-form input {
+        width: 90%;
+        padding:10px;
+    }
+    .contact-form textarea {
+        width: 90%;
+        padding: 35px;
+    
+    }
+    .contact-form button {
+        width: 50%;
+    }
+
+    /* FIN DEL MAIN */
+    footer{
+        height: 7em;
+    }
+    footer img {
+        width: 40px;
+    }
+}
+
+@media screen  and (min-width:577px) and (max-width:968px){
+    .header-cont {
+        display: flex;
+        gap: 20px;
+        position: sticky;
+        justify-content: end;
+    }
+   
+    .nav-list {
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+/*         background: var(--background-element); */
+        border: 2px solid #000000a8;
+        border-top:none;
+        align-items: flex-end;
+        padding: 45px 30px;
+        z-index: 2;
+        display: none;
+
+    }
+    .list-cont {
+        gap: 20px;
+    }
+    
+    .hamburguesa{
+        display: flex;
+    }
+    #toggle:checked + .nav-list{
+        display: flex;
+    }
+    .title {
+        font-size: large;
+    }
+    
+    .sign-in {
+        padding: 8px 15px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .join-now {
+        padding: 8px 15px;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 5px;
+    
+    }
+    .hero-cont {
+        height: 30em;
+        background-position: 110% 20px;
+        background-size: auto 90%;
+    }
+    
+    .hero-cont-info h3 {
+        font-size: x-large;
+    }
+    
+    .hero-cont-info p {
+        font-size: larger;
+    }
+
+    .promo-cont {
+        height: 40em;
+    }
+    
+
+    
+    .promo-cont-one-card {
+        width: 50%;
+    }
+    
+    .promo-cont-one-card-info h6 {
+        font-size: large;
+    }
+    
+    .promo-cont-one-card-info p {
+        font-size: large;
+    }
+    
+    .promo-cont-two-card {
+        width: 50%;
+    }
+    
+
+}
+
